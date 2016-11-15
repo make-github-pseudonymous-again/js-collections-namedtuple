@@ -2,7 +2,9 @@ import test from 'ava' ;
 
 import { list } from "aureooms-js-itertools" ;
 
-import { namedtuple , ordereddict } from '../../src' ;
+import ordereddict from 'aureooms-js-collections-ordereddict' ;
+
+import namedtuple from '../../src' ;
 
 test( "namedtuple" , t => {
 

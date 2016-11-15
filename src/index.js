@@ -1,65 +1,17 @@
-import { DoublyLinkedList } from 'aureooms-js-dll' ;
-import compile from './compile' ;
-import core from './core' ;
+import _NamedTuple from './_NamedTuple' ;
+import _namedtuple from './_namedtuple' ;
 
-const collections = compile( Set , Map , DoublyLinkedList , core ) ;
+import { Dict } from 'aureooms-js-collections-dict' ;
+import { OrderedDict } from 'aureooms-js-collections-ordereddict' ;
 
-export default collections ;
+const NamedTuple = _NamedTuple( Dict , OrderedDict ) ;
+const namedtuple = _namedtuple( NamedTuple ) ;
 
-const {
-
-	bisect ,
-	chainmap ,
-	counter ,
-	deque ,
-	dict ,
-	ordereddict ,
-	defaultdict ,
-	heapq ,
-	Mapping ,
-	namedtuple ,
-	set ,
-
-	ArbitrarySizeDeque ,
-	BoundedDeque ,
-	Deque ,
-	EmptyDeque ,
-	SingleElementDeque ,
-	UnboundedDeque ,
-
-	IndexError ,
-	KeyError ,
-	NotImplementedError ,
-	TypeError ,
-	ValueError ,
-
-} = collections ;
+export default namedtuple ;
 
 export {
-
-	bisect ,
-	chainmap ,
-	counter ,
-	deque ,
-	dict ,
-	ordereddict ,
-	defaultdict ,
-	heapq ,
-	Mapping ,
 	namedtuple ,
-	set ,
-
-	ArbitrarySizeDeque ,
-	BoundedDeque ,
-	Deque ,
-	EmptyDeque ,
-	SingleElementDeque ,
-	UnboundedDeque ,
-
-	IndexError ,
-	KeyError ,
-	NotImplementedError ,
-	TypeError ,
-	ValueError ,
-
+	NamedTuple ,
+	_namedtuple ,
+	_NamedTuple ,
 } ;
