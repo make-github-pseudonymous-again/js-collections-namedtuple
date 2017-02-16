@@ -1,8 +1,8 @@
 import test from 'ava' ;
 
-import { list } from "aureooms-js-itertools" ;
+import { list } from "@aureooms/js-itertools" ;
 
-import ordereddict from 'aureooms-js-collections-ordereddict' ;
+import ordereddict from '@aureooms/js-collections-ordereddict' ;
 
 import namedtuple from '../../src' ;
 
