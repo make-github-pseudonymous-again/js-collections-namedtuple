@@ -1,5 +1,5 @@
 {
-  "name": "aureooms-js-collections-namedtuple",
+  "name": "@aureooms/js-collections-namedtuple",
   "description": "Python's namedtuple data structure for JavaScript",
   "version": "3.0.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
@@ -23,11 +23,11 @@
     "url": "https://github.com/aureooms/js-collections-namedtuple/issues"
   },
   "dependencies": {
-    "aureooms-js-collections-dict": "^3.0.0",
-    "aureooms-js-collections-ordereddict": "^3.0.0"
+    "@aureooms/js-collections-dict": "^3.0.0",
+    "@aureooms/js-collections-ordereddict": "^3.0.0"
   },
   "devDependencies": {
-    "aureooms-js-itertools": "^3.1.0",
+    "@aureooms/js-itertools": "^3.1.0",
     "ava": "^0.18.1",
     "babel-cli": "^6.18.0",
     "babel-polyfill": "^6.16.0",
