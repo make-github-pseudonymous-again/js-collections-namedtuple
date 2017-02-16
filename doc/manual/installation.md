@@ -4,10 +4,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:aureooms-js-collections-namedtuple
+jspm install npm:@aureooms/js-collections-namedtuple
 ```
 
 ### npm
 ```terminal
-npm install aureooms-js-collections-namedtuple --save
+npm install @aureooms/js-collections-namedtuple --save
 ```
