@@ -1,8 +1,8 @@
-[js-collections-namedtuple](http://aureooms.github.io/js-collections-namedtuple)
+[@aureooms/js-collections-namedtuple](https://aureooms.github.io/js-collections-namedtuple)
 ==
 
 Python's namedtuple data structure for JavaScript. Parent is
-[js-collections](https://github.com/aureooms/js-collections).
+[@aureooms/js-collections](https://github.com/aureooms/js-collections).
 
 ```js
 let Point = namedtuple( 'Point' , [ 'x' , 'y' ] ) ;
