@@ -1,4 +1,4 @@
-[@aureooms/js-collections-namedtuple](https://aureooms.github.io/js-collections-namedtuple)
+[@aureooms/js-collections-namedtuple](https://make-github-pseudonymous-again.github.io/js-collections-namedtuple)
 ==
 
 Python's namedtuple data structure for JavaScript. Parent is
@@ -20,5 +20,5 @@ let Point = namedtuple( 'Point' , [ 'x' , 'y' ] ) ;
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-collections-namedtuple.svg)](https://codeclimate.com/github/aureooms/js-collections-namedtuple/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-collections-namedtuple/master.svg)](https://codecov.io/gh/aureooms/js-collections-namedtuple)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-collections-namedtuple.svg)](https://codeclimate.com/github/aureooms/js-collections-namedtuple/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-collections-namedtuple//badge.svg)](https://aureooms.github.io/js-collections-namedtuple//source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-collections-namedtuple//badge.svg)](https://make-github-pseudonymous-again.github.io/js-collections-namedtuple//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-collections-namedtuple)](https://bundlephobia.com/result?p=@aureooms/js-collections-namedtuple)
